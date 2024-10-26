@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html" class="esquerda">Home</a>
+                <a href="login.html" class="direita">Entrar</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="capa">
+         <div class="div-com-imagem">
+         </div>
+          
+    </section>
+
+    <section id="baner">
+        <h4>Confira nossos produtos</h4>
+    </section>
+
+
+    <section id="Produtos">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="imagens/cadeira.jpg" alt="cadeira">
+                <p>R$ 350,00</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/pc.png" alt="pc">
+                <p>R$ 2.500,00</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/ps5.jpg" alt="ps5">
+                <p>R$ 4.000,00</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Oferta">
+        <h2>Oferta</h2>
+        <div class="gallery2">
+            <img src="imagens/fone.jfif" alt="fone">
+        </div>
+    </section>
+
+    <section id="Destaques">
+        <h2>Destaques da semana</h2>
+        <div class="gallery2">
+            <img src="imagens/xbox.jpg" alt="multidao xbox">
+            <img src="imagens/torneio.jpg" alt="torneio">
+            <img src="imagens/feira.jpg" alt="feira de anime">
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Vitor Brackmann Moreira</p>
+        <p> SENAI - Antônio Souza Nochese </p>
+        <p>2024</p>
+    </footer>
+
+</body>
+</html>
